@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="udacity_orange">#F08C35</color>
+    <color name="techno_red">#D50000</color>
+    <color name="white">#FFFFFF</color>
+
+    <style name="buttonStyle">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:onClick">showButtonClickToast</item>
+        <item name="android:background">@color/udacity_orange</item>
+    </style>
+
+    <style name="capstoneButtonStyle" parent="buttonStyle">
+        <item name="android:background">@color/techno_red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Material.Light.DarkActionBar"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+</resources>
